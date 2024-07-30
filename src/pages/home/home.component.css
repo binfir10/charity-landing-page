@@ -1,0 +1,26 @@
+.title-h3 {
+  font-size: 120px;
+  text-align: center;
+  line-height: 140%;
+  font-weight: 400;
+  color: #8e7ada;
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 908px) {
+  .title-h3 {
+    font-size: 84px;
+  }
+}
+
+@media (max-width: 508px) {
+  .title-h3 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 308px) {
+  .title-h3 {
+    font-size: 26px;
+  }
+}

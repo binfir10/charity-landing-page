@@ -1,0 +1,24 @@
+<section>
+  <article>
+    <span>What we do</span>
+    <h3>
+      Making a Difference, <br />
+      One Life at a Time.
+    </h3>
+    <p>
+      At Hope, we are dedicated to uplifting communities through a range of
+      targeted initiatives. Our focus areas include
+    </p>
+  </article>
+  <div class="container">
+    <div class="info-container">
+      @for (item of cards; track $index) {
+      <div class="card">
+        <h4>{{ item.title }}</h4>
+        <p>{{ item.description }}</p>
+      </div>
+      }
+    </div>
+    <img src="/what-img.png" alt="" />
+  </div>
+</section>

@@ -1,0 +1,21 @@
+<section>
+  <article>
+    <span>About us</span>
+    <h3>A Future Filled with Hope</h3>
+    <p>
+      At Hope, we are dedicated to uplifting communities through a range of
+      targeted initiatives
+    </p>
+  </article>
+  <div class="container">
+    <img src="/Content.png" alt="" />
+    <div class="info-container">
+      @for (item of cards; track $index) {
+      <div class="card">
+        <h4>{{ item.title }}</h4>
+        <p>{{ item.description }}</p>
+      </div>
+      }
+    </div>
+  </div>
+</section>
