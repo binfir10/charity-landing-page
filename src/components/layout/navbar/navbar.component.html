@@ -2,11 +2,27 @@
   <a href="/"> <img src="/Heading.png" alt="" class="logo" /></a>
 
   <nav class="nav-links">
-    <a routerLink="#about">About us</a>
+    <a hre="#about">About us</a>
     <a routerLink="#">Campaings</a>
     <a routerLink="/get-involved">Get Involved</a>
     <a routerLink="#">Contact us</a>
   </nav>
 
+  <div class="mobile">
+    <button class="mobile-menu" (click)="toggleMenu()">
+      @if (menuOpen) {
+      <img src="/Vector.png" alt="" class="menu-toggle" />
+      } @else {
+      <img src="/Button.png" alt="" class="menu-toogle" />
+      }
+    </button>
+    <nav class="nav-menu" [class.open]="menuOpen">
+      <a routerLink="#">About us</a>
+      <a routerLink="#">Campaings</a>
+      <a routerLink="/get-involved">Get Involved</a>
+      <a routerLink="#">Contact us</a>
+      <button class="mobile-button">Donate</button>
+    </nav>
+  </div>
   <button class="header-button">Donate</button>
 </header>

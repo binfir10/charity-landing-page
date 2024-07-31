@@ -1,1 +1,46 @@
-<p>get-involved works!</p>
+<section class="hero-container">
+  <h2 class="title">Get Involved</h2>
+  <p class="paragraph">
+    At Hope, we believe that every person has the power to make a difference.
+    Together, we can create a brighter, more hopeful future for all. Join us in
+    our mission and make an impact today.
+  </p>
+</section>
+<section class="cards-container">
+  @for (item of cards; track $index) {
+  <article class="card">
+    <img src="{{ item.icon }}" alt="" class="icon" />
+    <div class="card-info">
+      <h4 class="info-title">{{ item.title }}</h4>
+      <p class="info-description">{{ item.description }}</p>
+      <button class="info-button">{{ item.buttonInfo }}</button>
+    </div>
+    <img src="{{ item.img }}" alt="" class="card-img" />
+  </article>
+  }
+  <article class="card">
+    <img src="/get-involved/div-2.png" alt="" class="icon" />
+    <div class="card-info">
+      <h4 class="info-title">Connected</h4>
+      <p class="info-description">
+        Stay connected with Hope and be the first to know about our latest
+        initiatives, success stories, and upcoming events. By subscribing to our
+        newsletter, you'll receive regular updates straight to your inbox,
+        giving you an inside look at the impact we’re making and the lives we’re
+        transforming.
+      </p>
+      <div class="card-button-container">
+        <input type="text" placeholder="Input Email Address" />
+        <button class="sign-button">Sign up</button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/get-involved/Frame 241.png" alt="" class="card-img" />
+      <div class="social-container">
+        <button class="sign-button">Facebook</button>
+        <button class="sign-button">Instagram</button>
+      </div>
+    </div>
+  </article>
+</section>
+<img src="/get-involved/Frame 266.png" alt="" class="gallery" />

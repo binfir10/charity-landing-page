@@ -1,0 +1,169 @@
+.hero-container {
+  padding-top: 3rem;
+}
+
+section {
+  background: #00000010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 3rem;
+  gap: 1.5rem;
+}
+.gallery {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+h2 {
+  font-size: 62px;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+
+  border-radius: 10px;
+  background: #ffffff;
+  position: relative;
+  width: 80%;
+}
+
+.icon {
+  position: absolute;
+  width: 140px;
+  top: -50px;
+  left: 64px;
+  object-fit: contain;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  gap: 3rem;
+}
+
+.info-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.info-description {
+  font-size: 16px;
+  font-family: "Epilogue";
+}
+
+.card-img {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.info-button {
+  font-family: "Epilogue";
+  background: #ffffff;
+  padding: 12px 34px;
+  color: #8e7ada;
+  border: 1px solid #8e7ada;
+  border-radius: 8px;
+  cursor: pointer;
+  width: fit-content;
+  text-align: center;
+}
+
+.card-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 12px 34px;
+  background: #fafafa;
+  border: 1px solid #fafafa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Epilogue";
+}
+
+.sign-button {
+  font-family: "Epilogue";
+  background: #8e7ada;
+  padding: 12px 34px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 120px;
+  width: max-content;
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.social-container button {
+  width: 100%;
+}
+@media (max-width: 908px) {
+  h2 {
+    font-size: 45px;
+  }
+
+  .cards-container {
+    gap: 80px;
+  }
+  .card-img {
+    width: 300px;
+    height: 200px;
+  }
+  .card-info {
+    max-width: 300px;
+    gap: 1rem;
+    padding: 3rem 0.5rem;
+  }
+}
+
+@media (max-width: 508px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0.5rem;
+  }
+
+  .card-info {
+    gap: 1rem;
+  }
+
+  .card-button-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
