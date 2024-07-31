@@ -1,3 +1,18 @@
 <section>
-  <p>our-teams works!</p>
+  <article>
+    <h3 class="title">Our team</h3>
+    <p class="paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+  </article>
+  <div class="container">
+    @for (item of team; track $index) {
+    <div class="card">
+      <img src="{{ item.image }}" alt="" />
+      <span>{{ item.position }}</span>
+      <h4>{{ item.name }}</h4>
+      <p>{{ item.description }}</p>
+    </div>
+    }
+  </div>
 </section>

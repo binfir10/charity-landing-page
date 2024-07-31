@@ -4,9 +4,17 @@
   line-height: 140%;
   font-weight: 400;
   color: #8e7ada;
-  margin-bottom: 10rem;
+
+  padding-bottom: 10rem;
+  padding-top: 8rem;
 }
 
+.gallery {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
 @media (max-width: 908px) {
   .title-h3 {
     font-size: 84px;

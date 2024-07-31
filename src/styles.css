@@ -13,6 +13,47 @@
 
 section {
   margin: 0 auto;
+  width: 100%;
+  padding-bottom: 10rem;
+  padding-top: 8rem;
+}
 
-  margin-bottom: 13rem;
+.subtitle {
+  color: #8e7ada;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  line-height: 140%;
+}
+
+.paragraph {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 500px;
+  text-align: center;
+  line-height: 160%;
+}
+
+@media (max-width: 908px) {
+  .title {
+    font-size: 84px;
+  }
+}
+
+@media (max-width: 508px) {
+  .title {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 308px) {
+  .title {
+    font-size: 26px;
+  }
 }

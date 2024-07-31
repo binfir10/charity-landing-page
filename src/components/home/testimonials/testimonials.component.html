@@ -1,3 +1,18 @@
 <section>
-  <p>testimonials works!</p>
+  <article>
+    <h3 class="title">Our team</h3>
+    <p class="paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+  </article>
+  <div class="container">
+    @for (item of testimonial; track $index) {
+    <div class="card">
+      <img src="{{ item.image }}" alt="" />
+
+      <p>{{ item.description }}</p>
+      <h4>{{ item.name }}</h4>
+    </div>
+    }
+  </div>
 </section>

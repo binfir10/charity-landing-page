@@ -5,7 +5,6 @@ import { AboutComponent } from '../../components/home/about/about.component';
 import { JourneyComponent } from '../../components/home/journey/journey.component';
 import { OurTeamsComponent } from '../../components/home/our-teams/our-teams.component';
 import { TestimonialsComponent } from '../../components/home/testimonials/testimonials.component';
-import { GalleryHomeComponent } from '../../components/home/gallery-home/gallery-home.component';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +16,6 @@ import { GalleryHomeComponent } from '../../components/home/gallery-home/gallery
     JourneyComponent,
     OurTeamsComponent,
     TestimonialsComponent,
-    GalleryHomeComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
