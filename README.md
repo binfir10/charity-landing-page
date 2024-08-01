@@ -14,7 +14,7 @@ Charity Landing Page es una página de destino diseñada para promover una causa
 1. **Clona el repositorio**
 
    ```bash
-   git clone https://github.com/tuusuario/charity-landing-page.git
+   git clone https://github.com/brianfigueroa10/charity-landing-page.git
    cd charity-landing-page
     ```
 
