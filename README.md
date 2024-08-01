@@ -1,27 +1,47 @@
-# Charity
+# Charity Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+## Descripción
 
-## Development server
+Charity Landing Page es una página de destino diseñada para promover una causa benéfica. La página está desarrollada con Angular y CSS para proporcionar una experiencia visualmente atractiva y funcional.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologías
 
-## Code scaffolding
+- **Angular**: Framework para construir aplicaciones web dinámicas.
+- **CSS**: Hojas de estilo en cascada para el diseño y la presentación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuración del Entorno
 
-## Build
+1. **Clona el repositorio**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+   git clone https://github.com/tuusuario/charity-landing-page.git
+   cd charity-landing-page
+    ```
 
-## Running unit tests
+2. **Instalar las dependencias:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```bash
+    cd charity-landing-page
+    npm install
+    ```
 
-## Running end-to-end tests
+3. **Iniciar la aplicación:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    ```bash
+    ng serve
+    ```
 
-## Further help
+4. **Abrir en tu navegador:** Abre `http://localhost:4200` en tu navegador web favorito.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Captura de Pantalla
+
+![Captura de Pantalla](https://res.cloudinary.com/dv4ukplcm/image/upload/f_auto,q_auto/v1/proyects/byekejxmdgzdcf84t2z9)
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por favor sigue estos pasos
+1. **Fork este repositorio.**
+2. **Crea una rama con tu nueva característica (`git checkout -b feature/nueva-caracteristica`).**
+3. **Haz commit de tus cambios (`git commit -m 'Agrega nueva característica'`).**
+4. **Push a la rama (`git push origin feature/nueva-caracteristica`).**
+5. **Abre un Pull Request.**
